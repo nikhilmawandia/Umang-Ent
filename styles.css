@@ -1,30 +1,49 @@
-:root
-{
-     --primarycolor:#F3F4F6;
-     
+:root {
+    --primarycolor: #F3F4F6;
+    --umangecolor: #1E40AF;
 }
-.main-container
-{ margin: auto;
-    background-color:var(--primarycolor);
+
+.main-container {
+    margin: auto;
+    background-color: var(--primarycolor);
     padding: 0.5rem 0.5rem;
-    border-top-right-radius:1rem;
-   
+    border-top-right-radius: 1rem;
+
 }
-.logo
-{
-    background-color:var(--primarycolor);
+
+.logo {
+    background-color: var(--primarycolor);
     margin: auto;
     text-align: center;
 }
-.logo-size
-{
-    padding-left: 1rem;
-    block-size: 100px;
-    padding-top: 0.5rem;
-   
-}
-.brand-color
-{
-    color: #1D4ED8;
+
+.brand-color {
+    color: var(--umangecolor);
 }
 
+.circular--square {
+    border-radius: 50%;
+    block-size: 100px;
+    vertical-align: middle;
+    padding-left: 2rem;
+}
+
+.header-tag {
+    font-size: 1.5rem;
+   margin-left: 22rem;
+text-align: center;
+
+}
+
+.contact-image {
+    block-size: 35px;
+    vertical-align: bottom;
+    padding-left: 25rem;
+}
+
+.contact {
+    font-weight: bold;
+    float: right;
+    margin-top: -3rem;
+
+}
