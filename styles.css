@@ -1,0 +1,30 @@
+:root
+{
+     --primarycolor:#F3F4F6;
+     
+}
+.main-container
+{ margin: auto;
+    background-color:var(--primarycolor);
+    padding: 0.5rem 0.5rem;
+    border-top-right-radius:1rem;
+   
+}
+.logo
+{
+    background-color:var(--primarycolor);
+    margin: auto;
+    text-align: center;
+}
+.logo-size
+{
+    padding-left: 1rem;
+    block-size: 100px;
+    padding-top: 0.5rem;
+   
+}
+.brand-color
+{
+    color: #1D4ED8;
+}
+
