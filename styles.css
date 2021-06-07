@@ -148,17 +148,16 @@ border-top-right-radius: 1rem;
   padding: 0rem 0.5rem;
 
 }
-.footer .column 
-{
+ .column 
+{ 
   float: left;
-  width: 57%;
-  padding: 0px;
-  
+  width: 70%;
+  height:170px;
   column-count: 2;
-  column-gap: 2rem;
+ 
+  
 }
-.footer .row {
-  content: "";
+ .row
+  {
   display: table;
-  clear: both;
 }
