@@ -43,18 +43,7 @@ body {
 
 }
 
-.contact-image {
-  block-size: 35px;
-  vertical-align: bottom;
-  padding-left: 40rem;
-}
 
-.contact {
-  font-weight: bold;
-  float: right;
-  margin-top: -3rem;
-
-}
 
 /* Navbar container */
 .navbar {
@@ -192,7 +181,7 @@ body {
 .container {
   margin-top: 20px;
   overflow: hidden;
-  padding-bottom: 7.5rem;
+  padding-bottom: 5rem;
 }
 
 /* Style the buttons */
@@ -283,4 +272,9 @@ body {
 .column .sis 
 {
   color: black;
+}
+
+.no
+{
+  text-align: right;
 }
