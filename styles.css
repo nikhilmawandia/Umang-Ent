@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Limelight&family=Open+Sans:ital,wght@1,300&display=swap');
+
 :root {
   --primarycolor: #F3F4F6;
   --umangecolor: #1E40AF;
@@ -8,10 +9,11 @@ body {
   font-family: 'Limelight', cursive;
   font-family: 'Open Sans', sans-serif;
 }
-.WebContainer{
-  width:100%;
-  min-width:1000px;
-  height:auto;
+
+.WebContainer {
+  width: 100%;
+  min-width: 1000px;
+  height: auto;
 }
 
 .main-container {
@@ -125,26 +127,17 @@ body {
   display: block;
 }
 
-.footer-list .list-inline {
-  display: inline;
-  list-style: none;
-  text-decoration: none;
-  
 
-}
 
 .footer {
 
   background-color: var(--umangecolor);
- padding-bottom: 1rem;
+  padding-bottom: 1rem;
   text-align: center;
   color: white;
   border-radius: 1rem;
 }
 
-.footer .list-inline {
-  color: white;
-}
 
 .list-inline {
   text-decoration: none;
@@ -156,7 +149,7 @@ body {
 .column {
   float: left;
   height: 180px;
-  
+
   column-count: 1;
   margin-left: 15rem;
   column-gap: 1rem;
@@ -261,25 +254,65 @@ body {
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
 }
 
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
 }
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
+  .text {
+    font-size: 11px
+  }
 }
-.column .sis 
-{
+
+.column .sis {
   color: black;
 }
 
-.no
-{
+.no {
   text-align: right;
+}
+
+.product {
+  width: auto;
+  max-height: auto;
+  padding: 50px 0;
+ background: #f8f8f8;
+ margin:0;
+ box-sizing: border-box;
+}
+
+div {
+  display: block;
+}
+
+.heading {
+  font-size: 31px;
+  color: #eb1c24;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  font-weight: 700;
+}
+li{
+  float: left;
+  padding: 3.5rem;
+  list-style: none;
+  
 }
