@@ -136,6 +136,7 @@ body {
   text-align: center;
   color: white;
   border-radius: 1rem;
+  width: auto;
 }
 
 
@@ -148,7 +149,7 @@ body {
 
 .column {
   float: left;
-  height: 180px;
+  height: auto;
 
   column-count: 1;
   margin-left: 15rem;
@@ -315,4 +316,14 @@ li{
   padding: 3.5rem;
   list-style: none;
   
+}
+
+.banner-txt
+{
+  position: absolute;
+  top: 20rem;
+  left: 10px;
+  color: white;
+  width: 600px;
+  height: 100px;
 }
