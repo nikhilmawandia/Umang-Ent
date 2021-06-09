@@ -3,11 +3,16 @@
   --primarycolor: #F3F4F6;
   --umangecolor: #1E40AF;
 }
+
 body {
   font-family: 'Limelight', cursive;
   font-family: 'Open Sans', sans-serif;
 }
-
+.WebContainer{
+  width:100%;
+  min-width:1000px;
+  height:auto;
+}
 
 .main-container {
   margin: auto;
