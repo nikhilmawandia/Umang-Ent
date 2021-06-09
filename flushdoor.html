@@ -25,75 +25,6 @@
       vertical-align: middle;
     }
 
-    /* Slideshow container */
-    .slideshow-container {
-      max-width: 1000px;
-      position: relative;
-      margin: auto;
-    }
-
-    /* Caption text */
-    .text {
-      color: #f2f2f2;
-      font-size: 15px;
-      padding: 8px 12px;
-      position: absolute;
-      bottom: 8px;
-      width: 100%;
-      text-align: center;
-    }
-
-    /* Number text (1/3 etc) */
-    .numbertext {
-      color: #f2f2f2;
-      font-size: 12px;
-      padding: 8px 12px;
-      position: absolute;
-      top: 0;
-    }
-
-    /* The dots/bullets/indicators */
-    .dot {
-      height: 15px;
-      width: 15px;
-      margin: 0 2px;
-      background-color: #bbb;
-      border-radius: 50%;
-      display: inline-block;
-      transition: background-color 0.6s ease;
-    }
-
-    .active {
-      background-color: #717171;
-    }
-
-    /* Fading animation */
-    .fade {
-      -webkit-animation-name: fade;
-      -webkit-animation-duration: 1.5s;
-      animation-name: fade;
-      animation-duration: 1.5s;
-    }
-
-    @-webkit-keyframes fade {
-      from {
-        opacity: .4
-      }
-
-      to {
-        opacity: 1
-      }
-    }
-
-    @keyframes fade {
-      from {
-        opacity: .4
-      }
-
-      to {
-        opacity: 1
-      }
-    }
 
     /* On smaller screens, decrease text size */
     @media only screen and (max-width: 300px) {
@@ -111,7 +42,9 @@
     <div class="logo">
       <p class="header-tag">Welcome to <span class="brand-color">Umang Enterprises</span>
         <img src="images/umang-logo.JPG" class="circular--square" />
-        <div class="no"><p  class="fas fa-phone-alt" > 9836177447</p></div>
+        <div class="no">
+          <p class="fas fa-phone-alt"> 9836177447</p>
+        </div>
       </p>
     </div>
   </div>
@@ -153,63 +86,103 @@
       </div>
     </div>
   </div>
-
-
-
-  <h2>Automatic Slideshow</h2>
-  <p>Change image every 2 seconds:</p>
-
-  <div class="slideshow-container">
-
-    <div class="mySlides fade">
-      <div class="numbertext">1 / 3</div>
-      <img src="images/contact-image.png" style="height: 10% width:30%">
-      <div class="text">Caption Text</div>
+  <br>
+  <div style="height: 600px;">
+    <img src="https://www.centuryply.com/centuryproduct/club-prime-door-d.jpg" alt="">
+    <div style="position:relative; top: -25rem ; width: 200px; left: 900px;" dir="ltr">
+      Club Prime Doors are Boiling Water Proof (BWP) doors of the highest quality that act as excellent insulators
+      against dust, heat and noise. Made from the finest quality timber for high resistance and quality, these flush
+      doors are extremely durable and come with our patented Glue Line Internal Protection that make them 100% borer and
+      termite proof.
+      <br>
+      <br>
+      <b style="color: #ed1d24;">10 Years Warranty</b>
+      <br>
+      <br>
     </div>
-
-    <div class="mySlides fade">
-      <div class="numbertext">2 / 3</div>
-      <img src="images/contact-image.png" style="height: 10% width:30%">
-      <div class="text">Caption Two</div>
-    </div>
-
-    <div class="mySlides fade">
-      <div class="numbertext">3 / 3</div>
-      <img src="images/contact-image.png" style="height: 10% width:30%">
-      <div class="text">Caption Three</div>
-    </div>
-
   </div>
   <br>
-
-  <div style="text-align:center">
-    <span class="dot"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
+  <div style="height: 200px;">
+    <li style="color: red">AVAILABLE IN:</li>
+    <li>30 mm</li>
   </div>
-  <script>
-    var slideIndex = 0;
-    showSlides();
+  <br>
+  <div class="wrapper">
 
-    function showSlides() {
-      var i;
-      var slides = document.getElementsByClassName("mySlides");
-      var dots = document.getElementsByClassName("dot");
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-      }
-      slideIndex++;
-      if (slideIndex > slides.length) {
-        slideIndex = 1
-      }
-      for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[slideIndex - 1].style.display = "block";
-      dots[slideIndex - 1].className += " active";
-      setTimeout(showSlides, 2000); // Change image every 2 seconds
-    }
-  </script>
+    <div class="new-upssecti">
+
+      <div class="row">
+
+        <div class="col-md-4">
+          <div class="heading-block">
+          </div>
+
+          <!--<p>Century Doors offer a beautiful collection of entrances for residential and commercial spaces.</p>-->
+        </div>
+        <div class="col-md-8">
+          <div class="listing-icons">
+
+            <ul>
+
+
+              <li>
+                <div class="slots">
+                  <img id="usp-135" src="https://www.centuryply.com/uspsimage/Borer-Termite Proof.png"
+                    alt="Borer &amp; Termite Proof"> <strong>Borer &amp; Termite Proof</strong>
+
+                </div>
+               </li>
+
+
+              <li>
+                <div class="slots">
+                  <img id="usp-134" src="https://www.centuryply.com/uspsimage/boiling.png" alt="Boiling Water Proof">
+                  <strong>Boiling Water Proof</strong>
+
+                </div>
+              </li>
+
+
+              <li>
+                <div class="slots">
+                  <img id="usp-136" src="https://www.centuryply.com/uspsimage/slam-proof.png" alt="Slam Proof">
+                  <strong>Slam Proof</strong>
+
+                </div>
+              </li>
+
+
+              <li>
+                <div class="slots">
+                  <img id="usp-369" src="https://www.centuryply.com/uspsimage/swell-proof.png" alt="Swell Proof">
+                  <strong>Swell Proof</strong>
+
+                </div>
+              </li>
+
+
+              <li>
+                <div class="slots">
+                  <img id="usp-370" src="https://www.centuryply.com/uspsimage/bend-proof.png" alt="Bend Proof">
+                  <strong>Bend Proof</strong>
+
+                </div>
+              </li>
+
+
+            </ul>
+          </div>
+
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </div>
+
 
   <footer class="footer">Connect us at:
 

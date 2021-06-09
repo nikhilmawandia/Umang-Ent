@@ -25,75 +25,7 @@
       vertical-align: middle;
     }
 
-    /* Slideshow container */
-    .slideshow-container {
-      max-width: 1000px;
-      position: relative;
-      margin: auto;
-    }
 
-    /* Caption text */
-    .text {
-      color: #f2f2f2;
-      font-size: 15px;
-      padding: 8px 12px;
-      position: absolute;
-      bottom: 8px;
-      width: 100%;
-      text-align: center;
-    }
-
-    /* Number text (1/3 etc) */
-    .numbertext {
-      color: #f2f2f2;
-      font-size: 12px;
-      padding: 8px 12px;
-      position: absolute;
-      top: 0;
-    }
-
-    /* The dots/bullets/indicators */
-    .dot {
-      height: 15px;
-      width: 15px;
-      margin: 0 2px;
-      background-color: #bbb;
-      border-radius: 50%;
-      display: inline-block;
-      transition: background-color 0.6s ease;
-    }
-
-    .active {
-      background-color: #717171;
-    }
-
-    /* Fading animation */
-    .fade {
-      -webkit-animation-name: fade;
-      -webkit-animation-duration: 1.5s;
-      animation-name: fade;
-      animation-duration: 1.5s;
-    }
-
-    @-webkit-keyframes fade {
-      from {
-        opacity: .4
-      }
-
-      to {
-        opacity: 1
-      }
-    }
-
-    @keyframes fade {
-      from {
-        opacity: .4
-      }
-
-      to {
-        opacity: 1
-      }
-    }
 
     /* On smaller screens, decrease text size */
     @media only screen and (max-width: 300px) {
@@ -111,7 +43,9 @@
     <div class="logo">
       <p class="header-tag">Welcome to <span class="brand-color">Umang Enterprises</span>
         <img src="images/umang-logo.JPG" class="circular--square" />
-        <div class="no"><p  class="fas fa-phone-alt" > 9836177447</p></div>
+        <div class="no">
+          <p class="fas fa-phone-alt"> 9836177447</p>
+        </div>
       </p>
     </div>
   </div>
@@ -153,63 +87,123 @@
       </div>
     </div>
   </div>
+  <br>
 
+  <div>
+    <img src="https://www.centuryply.com/centuryproduct/bond-710.jpg" height="500px" width="600px" alt="">
+    <br><br><br>
+    <div class="bondtext">
+      <b>Bond 710 is a premium Boiling Water Proof Marine Grade plywood from CenturyPly and it is completely waterproof
+        in nature. Made with pre-pressing which gives it enhanced durability and longer life, it has more number of
+        plies for added strength. It is Borer &amp; Termite proof, protecting your interiors from untimely decaying.
+        Bond 710 comes with a 15 year warranty.</b>
 
-
-  <h2>Automatic Slideshow</h2>
-  <p>Change image every 2 seconds:</p>
-
-  <div class="slideshow-container">
-
-    <div class="mySlides fade">
-      <div class="numbertext">1 / 3</div>
-      <img src="images/contact-image.png" style="height: 10% width:30%">
-      <div class="text">Caption Text</div>
     </div>
-
-    <div class="mySlides fade">
-      <div class="numbertext">2 / 3</div>
-      <img src="images/contact-image.png" style="height: 10% width:30%">
-      <div class="text">Caption Two</div>
-    </div>
-
-    <div class="mySlides fade">
-      <div class="numbertext">3 / 3</div>
-      <img src="images/contact-image.png" style="height: 10% width:30%">
-      <div class="text">Caption Three</div>
-    </div>
-
   </div>
   <br>
 
-  <div style="text-align:center">
-    <span class="dot"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
-  </div>
-  <script>
-    var slideIndex = 0;
-    showSlides();
+  <p>
+    <li style="color: red">AVAILABLE IN:</li>
+    <li>4 mm</li>
+    <li>6 mm</li>
+    <li>9 mm</li>
+    <li>12 mm</li>
+    <li>16 mm</li>
+    <li>19 mm</li>
+    <li>19 mm BB</li>
 
-    function showSlides() {
-      var i;
-      var slides = document.getElementsByClassName("mySlides");
-      var dots = document.getElementsByClassName("dot");
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-      }
-      slideIndex++;
-      if (slideIndex > slides.length) {
-        slideIndex = 1
-      }
-      for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[slideIndex - 1].style.display = "block";
-      dots[slideIndex - 1].className += " active";
-      setTimeout(showSlides, 2000); // Change image every 2 seconds
-    }
-  </script>
+  </p>
+
+
+  <br>
+  <div class="wrapper">
+
+    <div class="new-upssecti">
+
+      <div class="row">
+
+        <div class="col-md-4">
+          <div class="heading-block">
+          </div>
+
+          <!--<p>State-of-the-art ideas for home and commercial purposes; engineered to deliver the perfect amalgamation of design, durability and performance.</p>-->
+        </div>
+        <div class="col-md-8">
+          <div class="listing-icons">
+
+            <ul>
+
+
+              <li>
+                <div class="slots">
+                  <img id="usp-411" src="https://www.centuryply.com/uspsimage/virokill.png"
+                    alt="Virokill Technology - Kills 99.9% Viruses"> <strong>Virokill Technology - Kills 99.9%
+                    Viruses</strong>
+
+                </div>
+              </li>
+
+
+              <li>
+                <div class="slots">
+                  <img id="usp-194" src="https://www.centuryply.com/uspsimage/Bond-710-Boiling-Water-Proof.png"
+                    alt="BWP Marine Grade Plywood"> <strong>BWP Marine Grade Plywood</strong>
+
+                </div>
+              </li>
+
+
+              <li>
+                <div class="slots">
+                  <img id="usp-195" src="https://www.centuryply.com/uspsimage/Bond-710-Warranty.png"
+                    alt="15 Years of Warranty"> <strong>15 Years of Warranty</strong>
+
+                </div>
+
+              </li>
+
+              <li>
+                <div class="slots">
+                  <img id="usp-412" src="https://www.centuryply.com/uspsimage/Core-Composed.png"
+                    alt="Core Composed- No Gaps or Overlaps"> <strong>Core Composed- No Gaps or Overlaps</strong>
+
+                </div>
+              </li>
+
+
+              <li>
+                <div class="slots">
+                  <img id="usp-197" src="https://www.centuryply.com/uspsimage/Bond-710-Quadra-Press.png"
+                    alt="Quadra Press Technology for No Delamination"> <strong>Quadra Press Technology for No
+                    Delamination</strong>
+
+                </div>
+              </li>
+
+
+              <li>
+                <div class="slots">
+                  <img id="usp-196" src="https://www.centuryply.com/uspsimage/Bond-710-Borer-&amp;-Termite-Proof.png"
+                    alt="Glue Line Protection (GLP), Patent Technology Wherein Each Layer Is Treated For 100% Protection For Borer And Termite">
+                  <strong>Glue Line Protection (GLP), Patent Technology Wherein Each Layer Is Treated For 100%
+                    Protection For Borer And Termite</strong>
+
+                </div>
+              </li>
+
+
+            </ul>
+          </div>
+
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </div>
 
   <footer class="footer">Connect us at:
 
@@ -228,7 +222,7 @@
         <p style="box-sizing: border-box; margin-bottom: 10px;">#Opp.Hotel Bhawna International,&nbsp;</p>
         <p style="box-sizing: border-box; margin-bottom: 10px;">Kacheri Chowk,C S Campus</p>
         <p style="box-sizing: border-box; margin-bottom: 10px;">Bhagalpur - 812001, Bihar</p>
-        <p class="phone" style="font-size: 13px;">Mob: &nbsp;+91-9431213372 &nbsp;+9835425250</p>
+        <p class="phone" style="font-size: 13px; ">Mob: &nbsp;+91-9431213372 &nbsp;+9835425250</p>
       </div>
 
     </div>
