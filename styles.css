@@ -166,7 +166,7 @@ body {
   float: left;
   background-color: #2196F3;
   color: #ffffff;
-  width: 100px;
+  width: 300px;
   line-height: 100px;
   text-align: center;
   margin: 2px;
@@ -336,4 +336,22 @@ li{
   height: 50px;
   padding-left: 50rem;
   
+}
+
+ {
+  box-sizing: border-box;
+}
+
+.imgcolumnl {
+  float: left;
+  padding: 1rem;
+}
+
+/* Clearfix (clear floats) */
+.imgrow::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 }
