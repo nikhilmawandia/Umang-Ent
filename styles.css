@@ -39,7 +39,7 @@ body {
 }
 
 .circular--square {
-  border-radius: 50%;
+  border-radius: 55%;
   block-size: 100px;
   vertical-align: middle;
   padding-left: 2rem;
