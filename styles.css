@@ -21,17 +21,21 @@ body {
   margin: auto;
   max-width: 1400px;
   background-color: var(--primarycolor);
-  padding: 0.1rem;
+  
   border-top-right-radius: 1rem;
 
 }
 
+.shree
+{
+  padding-left: 35rem;
+}
 .logo {
   background-color: var(--primarycolor);
   margin: auto;
   max-width: 1000px;
   text-align: center;
-  padding-top: 15px;
+  
 }
 
 .brand-color {
@@ -39,17 +43,16 @@ body {
 }
 
 .circular--square {
-  border-radius: 55%;
-  block-size: 100px;
+  border-radius: 20%;
+  block-size: 80px;
   vertical-align: middle;
-  padding-left: 2rem;
+  padding-top: 1rem;
 }
 
 .header-tag {
   font-size: 1.5rem;
   margin-left: 8rem;
   text-align: center;
-
 }
 
 
