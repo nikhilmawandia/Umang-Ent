@@ -343,7 +343,7 @@ li{
 
 .imgcolumnl {
   float: left;
-  padding: 1rem;
+  padding: 0.25rem;
 }
 
 /* Clearfix (clear floats) */
