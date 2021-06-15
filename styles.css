@@ -370,3 +370,9 @@ width: 100%;
     display: block;
   }
 }
+.hardwares
+{
+  display: block;
+  width: fit-content;
+  height: fit-content;
+}
