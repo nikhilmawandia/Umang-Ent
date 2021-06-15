@@ -180,6 +180,8 @@ body {
 }
 
 .container {
+  max-width: 800px;
+  margin: auto;
   margin-top: 20px;
   overflow: hidden;
   padding-bottom: 5rem;
