@@ -9,6 +9,7 @@
 body {
   font-family: 'Limelight', cursive;
   font-family: 'Open Sans', sans-serif;
+  margin: 0;
 }
 
 
@@ -16,6 +17,7 @@ body {
 .main-container {
   background-color: var(--primarycolor);
   border-radius: 1rem;
+  max-width: 1200px;;
 }
 
 .shree
@@ -59,6 +61,7 @@ body {
   background-color: var(--umangecolor);
   margin: 0;
   border-radius: 1rem;
+  max-width: 1200px;;
 }
 
 /* Links inside the navbar */
@@ -182,8 +185,8 @@ body {
 }
 
 
-.column .sis {
-  color: black;
+ .sis {
+  color: var(--umangecolor);
 }
 
 .no {
