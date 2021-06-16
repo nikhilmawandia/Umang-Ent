@@ -11,48 +11,44 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-.WebContainer {
-  width: 100%;
-  min-width: 1000px;
-  height: auto;
-}
+
 
 .main-container {
-  margin: auto;
-  max-width: 1400px;
   background-color: var(--primarycolor);
-  
-  border-top-right-radius: 1rem;
-
+  border-radius: 1rem;
 }
 
 .shree
 {
-  padding-left: 30rem;
+  display: block;
+  padding-left: 34rem;
+  block-size: 50%;
+  height: 30px;
 }
-.logo {
+/* .logo {
   background-color: var(--primarycolor);
   margin: auto;
   max-width: 1000px;
   text-align: center;
   
-}
+} */
 
 .brand-color {
   color: var(--umangecolor);
 }
 
 .circular--square {
-  border-radius: 20%;
-  block-size: 80px;
+  block-size: 50px;
   vertical-align: middle;
-  padding-top: 1rem;
+  padding-top: .5rem;
+  border-radius: 50%;
 }
 
 .header-tag {
-  font-size: 1.5rem;
   margin-left: 8rem;
   text-align: center;
+  font-size: 30px;
+  margin: 0;
 }
 
 
@@ -61,8 +57,7 @@ body {
 .navbar {
   overflow: hidden;
   background-color: var(--umangecolor);
-  font-family: Arial;
-  margin: auto;
+  margin: 0;
   border-radius: 1rem;
 }
 
