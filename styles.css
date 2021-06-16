@@ -126,7 +126,7 @@ body {
 }
 
 
-
+/* start from here */
 .column {
   float: left;
   height: auto;
@@ -334,7 +334,10 @@ li{
 
 @media only screen and (min-width: 280px)  
 {
-  
+  .shree
+  {
+    width: fit-content;
+  }
   .text {
     font-size: 11px
   }
