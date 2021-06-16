@@ -263,7 +263,6 @@ li{
   .shree
 {
   display: block;
-  padding-left: 20rem;
   block-size: 50%;
   height: 30px;
 }
@@ -271,13 +270,4 @@ li{
     font-size: 11px
   }
 
-  
-
-  
-}
-.hardwares
-{
-  display: block;
-  width: fit-content;
-  height: fit-content;
 }
