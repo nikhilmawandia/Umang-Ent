@@ -86,9 +86,7 @@ body {
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
-  /* Important for vertical align on mobile phones */
   margin: 0;
-  /* Important for vertical align on mobile phones */
 }
 
 /* Add a red background color to navbar links on hover */
@@ -128,22 +126,6 @@ body {
 }
 
 
-
-.footer {
-
-  background-color: var(--footercolor);
-  padding-bottom: 1rem;
-  color: white;
-  border-radius: 1rem;
-}
-
-
-.list-inline {
-  text-decoration: none;
-  display: inline;
-  padding: 0rem 0.5rem;
-
-}
 
 .column {
   float: left;
