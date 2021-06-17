@@ -274,6 +274,14 @@ li{
   .text {
     font-size: 11px
   }
+  .sis {
+    /* color: var(--umangecolor); */
+    color: red;
+  }
+  .name {
+    /* color: var(--umangecolor); */
+    color: #1E40AF;
+  }
 
 }
 .knobs
