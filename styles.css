@@ -186,7 +186,12 @@ body {
 
 
  .sis {
-  color: var(--umangecolor);
+  /* color: var(--umangecolor); */
+  color: red;
+}
+.name {
+  /* color: var(--umangecolor); */
+  color: #1E40AF;
 }
 
 .no {
