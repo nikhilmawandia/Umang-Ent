@@ -23,7 +23,9 @@ body {
 .shree
 {
   display: block;
-  padding-left: 25rem;
+  /* padding-left: 25rem; */
+  margin-left: 30%;
+  margin-right: auto;
   block-size: 50%;
   height: 30px;
 }
@@ -262,14 +264,30 @@ li{
   clear: both;
   display: table;
 }
+.knobs
+{
+  padding-left: 20px;
+  display: block;
+}
+.handles
+{
+  padding-left: 20px;
+  display: block;
+}
 
-@media only screen and (min-width: 280px)  and(max-device-height: 736px)and (orientation : portrait)and (-webkit-device-pixel-ratio: 2)
+@media only screen and (max-width: 380px)  and(max-device-height: 736px)and (orientation : portrait)and (-webkit-device-pixel-ratio: 2)
 {
   .shree
 {
-  display: block;
+  margin-left: 30%;
+  margin-right: auto;
   block-size: 50%;
   height: 30px;
+
+  /* float: left;
+  block-size: 50%;
+  height: 30px;
+  padding-left: 0; */
 }
   .text {
     font-size: 11px
@@ -282,13 +300,18 @@ li{
     /* color: var(--umangecolor); */
     color: #1E40AF;
   }
-
-}
-.knobs
+  .knobs
 {
-  padding-left: 10rem;
+  margin: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .handles
-{
-  padding-left: 10rem;
+{ margin: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 }
