@@ -282,6 +282,7 @@ li{
 
 @media only screen and (max-width: 380px)  and(max-device-height: 736px)and (orientation : portrait)and (-webkit-device-pixel-ratio: 2)
 {
+  
   .shree
 {
   margin-left: 30%;
@@ -336,10 +337,43 @@ li{
   padding-bottom: 10px;
   font-weight: 10px;
   max-width: 380px;
+  height: 200px;
 }
 .container {
-  max-width: 380px;
+  max-width: 200px;
   margin-top: 20px;
   overflow: hidden;
+  height: 100px;
+  margin: 0;
+}
+.banner-txt
+{
+  position: absolute;
+  top: 20rem;
+  left: 10px;
+  color: white;
+  max-width: 380px;
+  max-height: 60px;
+  margin: 0;
+}
+.product {
+  max-width: auto;
+  max-height: 200px;
+  padding: 10px 0;
+ background: #f8f8f8;
+ margin:0;
+ box-sizing: border-box;
+}
+.avai
+{
+  position: relative;
+}
+.footer
+{
+  position: relative;
+  display: block;
+  text-align: center;
+  margin: 0;
+  padding: 1px;
 }
 }
