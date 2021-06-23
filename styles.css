@@ -305,7 +305,7 @@ li{
 {
   margin-left: 3%;
   margin-right: auto;
-  block-size: 5%%;
+  block-size: 5%;
   height: 2%;
 
   /* float: left;
@@ -351,11 +351,11 @@ li{
   color: #eb1c24;
   text-transform: uppercase;
   position: relative;
-  margin-bottom: 20px;
-  padding-bottom: 10px;
-  font-weight: 10px;
-  max-width: 10%;
-  height: 10%;
+  margin-bottom: 2%;
+  padding-bottom: 2%;
+  font-weight: 2px;
+  max-width: 1%;
+  height: 1%;
 }
 .container {
   max-width: 10%;
@@ -376,7 +376,7 @@ li{
 }
 .product {
   max-width: auto;
-  max-height: 10%;
+  max-height: 2%;
   padding: 0;
  background: #f8f8f8;
  margin:0;
@@ -389,5 +389,9 @@ li{
   text-align: left;
   margin: 0;
   padding: 1px;
+}
+.pro
+{
+  max-height: 2%;
 }
 }
