@@ -280,6 +280,20 @@ li{
   display: block;
 }
 
+.footer
+{
+  position: relative;
+  display: block;
+  text-align: left;
+  margin: 0;
+  padding: 1px;
+}
+.avai
+{
+  position: relative;
+  display: block;
+}
+
 @media only screen and (max-width: 380px)  and(max-device-height: 736px)and (orientation : portrait)and (-webkit-device-pixel-ratio: 2)
 {
   
@@ -364,15 +378,11 @@ li{
  margin:0;
  box-sizing: border-box;
 }
-.avai
-{
-  position: relative;
-}
 .footer
 {
   position: relative;
   display: block;
-  text-align: center;
+  text-align: left;
   margin: 0;
   padding: 1px;
 }
