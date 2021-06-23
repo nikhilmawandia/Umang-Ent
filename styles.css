@@ -311,17 +311,35 @@ li{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  max-width: 380px;
 }
 .handles
 { margin: 0;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  max-width: 380px;
 }
 .mortise
 { margin: 0;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  max-width: 380px;
+}
+.heading {
+  font-size: 31px;
+  color: #eb1c24;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  font-weight: 10px;
+  max-width: 380px;
+}
+.container {
+  max-width: 380px;
+  margin-top: 20px;
+  overflow: hidden;
 }
 }
