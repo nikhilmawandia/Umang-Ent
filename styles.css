@@ -162,8 +162,8 @@ body {
 }
 
 .container {
-  max-width: 1400px;
-  margin-top: 20px;
+  /* max-width: 1200px; */
+  margin-top: 2px;
   overflow: hidden;
 }
 
@@ -201,8 +201,8 @@ body {
 }
 
 .product {
-  width: auto;
-  max-height: 580px;
+  /* width: 1200; */
+  max-height: 800px;
   padding: 10px 0;
  background: #f8f8f8;
  margin:0;
@@ -214,13 +214,12 @@ div {
 }
 
 .heading {
-  font-size: 31px;
+  font-size: 25px;
   color: #eb1c24;
   text-transform: uppercase;
   position: relative;
-  margin-bottom: 20px;
-  padding-bottom: 10px;
-  font-weight: 700;
+  margin-bottom: 1px;
+  padding-bottom: 1px;
 }
 li{
   float: left;
@@ -229,15 +228,15 @@ li{
   
 }
 
-.banner-txt
+/* .banner-txt
 {
   position: absolute;
   top: 20rem;
   left: 10px;
   color: white;
   width: 600px;
-  height: 100px;
-}
+  height: 150px;
+} */
 
 .bondtext
 {
@@ -292,14 +291,27 @@ li{
 {
   position: relative;
   display: block;
+  margin: 0;
 }
-
-@media only screen and (max-width: 380px)  and(max-device-height: 1125px)and (orientation : portrait)and (-webkit-device-pixel-ratio: 3)
+/* .banner
 {
-  .banner
+  width: 1200px;
+} */
+
+@media only screen and (max-width: 380px)  and(max-device-height: 1125px)and (-webkit-device-pixel-ratio: 3)
+{
+  /* .banner
   {
-    width: 5%;
-    height: 5%;
+    max-width: 380px;
+  } */
+  /* .container {
+    max-width: 20px;
+    margin-top: 20px;
+    overflow: hidden;
+  } */
+  .h1
+  {
+    font-size: 1px;
   }
   .shree
 {
@@ -346,7 +358,7 @@ li{
   margin-right: auto;
   max-width: 380px;
 }
-.heading {
+/* .heading {
   font-size: 31px;
   color: #eb1c24;
   text-transform: uppercase;
@@ -356,26 +368,27 @@ li{
   font-weight: 2px;
   max-width: 1%;
   height: 1%;
-}
+} */
 .container {
-  max-width: 10%;
+  /* max-width: 10%; */
   margin-top: 20px;
   overflow: hidden;
   height: 2%;
   margin: 0;
 }
-.banner-txt
+/* .banner-txt
 {
-  position: absolute;
+   position: absolute; 
   top: 20rem;
   left: 10px;
   color: white;
-  max-width: 2%;
-  max-height: 2%;
+  max-width: 1%;
+  max-height: 1%;
   margin: 0;
-}
+font-size:1px;
+} */
 .product {
-  max-width: auto;
+  /* max-width: auto; */
   max-height: 2%;
   padding: 0;
  background: #f8f8f8;
@@ -393,5 +406,11 @@ li{
 .pro
 {
   max-height: 2%;
+}
+.main-container {
+  background-color: var(--primarycolor);
+  border-radius: 1rem;
+  max-width:2%;
+  font-size: 1px;
 }
 }
