@@ -241,10 +241,9 @@ li{
 .bondtext
 {
   position: absolute;
-  top: 25rem;
-  width: 300px;
-  height: 50px;
-  padding-left: 50rem;
+  top: 14rem;
+  width: 235px;
+  padding-left: 13rem;
   
 }
 
@@ -287,20 +286,21 @@ li{
   margin: 0;
   padding: 1px;
 }
-/* .avai
-{
-  position: relative;
-  display: block;
-  margin: 0;
-} */
-/* .banner
-{
-  width: 1200px;
-} */
-
-/* @media   (min-width: 400px)  and(max-device-height: 1125px)and (-webkit-device-pixel-ratio: 3) */
-
+text {
+  font-size: 5px;
+  text-align: center;
+}
 @media screen and (max-width: 414px) {
+  
+  
+  slideshow-container
+  {
+    width: 30px;
+  }
+  mySlides fade
+  {
+    width: 30px;
+  }
   p
   {
     font-size: 1.25rem;
@@ -333,7 +333,8 @@ li{
   padding-left: 0; */
 }
   text {
-    font-size: 11px
+    font-size: 5px;
+    text-align: center;
   }
   sis {
     /* color: var(--umangecolor); */
