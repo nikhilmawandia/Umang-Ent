@@ -224,10 +224,9 @@ li{
 .bondtext
 {
   position: absolute;
-  top: 14rem;
+  top: 12rem;
   width: 235px;
   padding-left: 13rem;
-  
 }
 
  {
@@ -295,6 +294,14 @@ p
 
 @media screen and (max-width: 414px) 
 {
+  .bondtext
+{
+  position: absolute;
+  top: 15rem !important;
+  width: 235px;
+  padding-left: 13rem;
+}
+
   .heading {
     font-size: 1rem !important;
     color:blue ;
@@ -302,6 +309,7 @@ p
     position: relative;
     margin-bottom: 1px;
     padding-bottom: 1px;
+    
   }
   p
   {
