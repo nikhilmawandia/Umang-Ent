@@ -308,6 +308,10 @@ p
 
 @media screen and (max-width: 414px) 
 {
+  .safe
+  {
+    width: 25rem !important;
+  }
   .panelText
 {
   position: absolute;
