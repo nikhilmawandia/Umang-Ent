@@ -299,9 +299,9 @@ text {
    /* padding-top: 15rem;  */
   margin: 0;
   padding: 0;
-  /* padding-top: 5rem; */
   position:absolute;
-  /* display: block; */
+  display: block; 
+  font-size: 2.25rem;
 }
 @media screen and (max-width: 414px) {
   
@@ -309,7 +309,10 @@ text {
   {
     font-size: 1.25rem;
   }
-
+ .filterDiv
+{
+  font-size: 1.25rem;
+} 
   panelText
 {
   float: left;
@@ -327,13 +330,7 @@ text {
   {
     width: 30px;
   }
-  /* .avail
-{
-  position: absolute;
-   display: block; 
-  margin: 0rem;
-  padding-bottom: 1rem;
-} */
+    
   div
   {
     font-size: 1.25rem;
