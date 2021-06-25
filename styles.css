@@ -228,7 +228,13 @@ li{
   width: 235px;
   padding-left: 13rem;
 }
-
+.panelText
+{
+  position: absolute;
+  top: 14rem;
+  width: 235px;
+  padding-left: 17rem;
+}
  {
   box-sizing: border-box;
 }
@@ -302,6 +308,13 @@ p
 
 @media screen and (max-width: 414px) 
 {
+  .panelText
+{
+  position: absolute;
+  top: 16rem;
+  width: 9rem;
+  padding-left: 17rem;
+}
   .flushDoor
   {
     top:16rem !important;
