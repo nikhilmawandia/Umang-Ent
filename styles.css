@@ -12,7 +12,11 @@ body {
   margin: 0;
 }
 
-
+.images
+{
+  width: 200px;
+   height:200px;
+}
 
 .main-container {
   background-color: var(--primarycolor);
@@ -235,9 +239,10 @@ li{
   width: 235px;
   padding-left: 17rem;
 }
+/* 
  {
   box-sizing: border-box;
-}
+} */
 
 .imgcolumnl {
   float: left;
